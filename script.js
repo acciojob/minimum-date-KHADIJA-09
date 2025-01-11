@@ -1,5 +1,15 @@
 function minDate(dates) {
   //write you code here
+	m = dates[0]
+ for(i = 0; i<dates.length ; i++)
+	 {
+		 if(dates[i].compareTo(m) <0)
+		 {
+			 m = dates[i]
+		 }
+		 
+	 }
+	return m;
 }
 
 // Do not change the code
